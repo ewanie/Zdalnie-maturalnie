@@ -1,0 +1,46 @@
+.learn {
+  height: calc(100% - 44px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  &__oralExam{
+    width: 300px;
+    height: 200px;
+    border: 2px solid $titlesGrey;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    h1 {
+      color: $mainGrey;
+      border-bottom: 3px solid $orYellow;
+      font-size: 36px;
+    }
+    p {
+      font-family: 'Handlee', cursive;
+      color: $titlesGrey;
+      margin: 10px;
+      font-size: 24px;
+      text-transform: lowercase;
+    }
+  }
+  &__math{
+    width: 300px;
+    height: 200px;
+    border: 2px solid $titlesGrey;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    h1 {
+      color: $mainGrey;
+      border-bottom: 3px solid $mathBlue;
+    }
+    p {
+      font-family: 'Handlee', cursive;
+      color: $titlesGrey;
+      margin: 10px;
+      font-size: 24px;
+      text-transform: lowercase;
+    }
+  }
+}
