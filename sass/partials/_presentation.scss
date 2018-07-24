@@ -1,0 +1,64 @@
+.presentation {
+  width: 100%;
+  height: calc(100% - 44px);
+  &__header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    &__title {
+      margin: 10px;
+      text-transform: uppercase;
+      color: $mainGrey;
+      font-size: 42px;
+    }
+    &__description {
+        margin: 10px;
+        font-family: 'Handlee', cursive;
+        font-size: 24px;
+        color: $titlesGrey;
+      }
+    }
+  &__courses{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    &__details {
+      &__title {
+        width: 250px;
+        height: 150px;
+        margin: 25px;
+        padding: 10px;
+        -webkit-box-shadow: 2px 6px 21px 4px rgba(255,255,0,0.62);
+        -moz-box-shadow: 2px 6px 21px 4px rgba(255,255,0,0.62);
+        box-shadow: 2px 6px 21px 4px rgba(255,255,0,0.62);
+        p {
+          font-size: 26px;
+          color: $mainGrey;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 30px;
+        }
+      }
+      &__description {
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        padding: 10px;
+        p {
+          font-size: 20px;
+          font-family: 'Handlee', cursive;
+          color: $titlesGrey;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+  }

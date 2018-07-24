@@ -7,14 +7,19 @@
   &__oralExam{
     width: 300px;
     height: 200px;
-    border: 2px solid $titlesGrey;
+    border: 3px solid $orYellow;
+    border-radius: 70%;
     text-align: center;
     text-transform: uppercase;
     margin: 50px;
+    padding: 20px;
+    &__link {
+      text-decoration: none;
+    }
     h1 {
       color: $mainGrey;
-      border-bottom: 3px solid $orYellow;
       font-size: 36px;
+      text-decoration: none;
     }
     p {
       font-family: 'Handlee', cursive;
@@ -27,13 +32,18 @@
   &__math{
     width: 300px;
     height: 200px;
-    border: 2px solid $titlesGrey;
+    border: 3px solid $mathBlue;
+    border-radius: 70%;
     text-align: center;
     text-transform: uppercase;
     margin: 50px;
+    padding: 30px;
+    &__link {
+      text-decoration: none;
+    }
+
     h1 {
       color: $mainGrey;
-      border-bottom: 3px solid $mathBlue;
     }
     p {
       font-family: 'Handlee', cursive;
