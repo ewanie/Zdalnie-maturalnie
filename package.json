@@ -38,7 +38,7 @@
     "transform-runtime": "0.0.0",
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.9.1",
-    "harp": "^0.25.0",
+    "harp": "^0.25.0"
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base --inline --hot",
