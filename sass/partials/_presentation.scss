@@ -1,11 +1,18 @@
 .presentation {
   width: 100%;
-  height: calc(100% - 44px);
+  height: 100vh;
+  padding-top: 50px;
   &__header {
    display: flex;
    flex-direction: column;
    justify-content: center;
     align-items: center;
+  span {
+    font-size: 20px;
+    color: $mainGrey;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
     &__title {
       margin: 10px;
       text-transform: uppercase;

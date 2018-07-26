@@ -1,4 +1,8 @@
 .contact {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  overflow: hidden;
   &__header {
     font-size: 42px;
     color: $mainGrey;
@@ -38,7 +42,14 @@
         margin: 10px;
       }
       &__question {
-        width: 200px;
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left:130px;
+      }
+      &__answer {
+        width: 100px;
         height: 30px;
         margin: 10px;
 
@@ -46,6 +57,10 @@
       button {
         height: 30px;
         width: 150px;
+        margin: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: $mainGrey;
 
       }
     }

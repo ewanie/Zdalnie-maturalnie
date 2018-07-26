@@ -1,21 +1,22 @@
 import React, {Component} from "react";
 import { Link } from "react-router-dom";
+import $ from "jquery";
 
 class Menu extends Component {
 
     render() {
         return <div className="menu">
-                <Link className = "menu__span" to="/"><img src='../images/mini_logo.png'/></Link>
+                <a className = "menu__span" href=""><img src='../images/mini_logo.png'/></a>
             <ul>
             <li className='menu__item'>
-                <Link className = "menu__item__link" to='/przedmioty'>Przedmioty</Link></li>
+                <a className = "menu__item__link" href="/#przedmioty">Przedmioty</a></li>
             <li className='menu__item'>
-                <Link className = "menu__item__link" to='/o-nas'>O nas</Link></li>
+                <a className = "menu__item__link" href="/#about">O nas</a></li>
             <li className='menu__item'>
-                <Link className = "menu__item__link" to="/kontakt">Kontakt</Link>
+                <a className= "menu__item__link" href="/#kontakt">Kontakt</a>
             </li>
             <li className='menu__item'>
-                <Link className = "menu__item__link" to="/blog">Blog</Link></li>
+                <a className = "menu__item__link" href="/#blog">Blog</a></li>
         </ul>
         </div>;
     }

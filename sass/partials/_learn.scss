@@ -1,25 +1,27 @@
 .learn {
-  height: calc(100% - 44px);
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px;
+  padding: 100px;
   &__oralExam{
-    width: 300px;
-    height: 200px;
-    border: 3px solid $orYellow;
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 2px 6px 21px 4px rgba(255,255,0,1);
+    -moz-box-shadow: 2px 6px 21px 4px rgba(255,255,0,1);
+    box-shadow: 2px 6px 21px 4px rgba(255,255,0,1);
     border-radius: 70%;
     text-align: center;
     text-transform: uppercase;
     margin: 50px;
-    padding: 20px;
+    padding: 50px;
     &__link {
       text-decoration: none;
     }
     h1 {
       color: $mainGrey;
       font-size: 36px;
-      text-decoration: none;
     }
     p {
       font-family: 'Handlee', cursive;
@@ -30,20 +32,23 @@
     }
   }
   &__math{
-    width: 300px;
-    height: 200px;
-    border: 3px solid $mathBlue;
+    width: 350px;
+    height: 250px;
     border-radius: 70%;
+    -webkit-box-shadow: 2px 6px 21px 4px rgba(56,176,222,1);
+    -moz-box-shadow: 2px 6px 21px 4px rgba(56,176,222,1);
+    box-shadow: 2px 6px 21px 4px rgba(56,176,222,1);
     text-align: center;
     text-transform: uppercase;
     margin: 50px;
-    padding: 30px;
+    padding: 55px;
     &__link {
       text-decoration: none;
     }
 
     h1 {
       color: $mainGrey;
+      font-size: 36px;
     }
     p {
       font-family: 'Handlee', cursive;

@@ -1,0 +1,17 @@
+.footer {
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+  &__copyright {
+    font-size: 12px;
+    color: $titlesGrey;
+    margin-left: 10px;
+  }
+  &__created {
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    color: $titlesGrey;
+  }
+
+}

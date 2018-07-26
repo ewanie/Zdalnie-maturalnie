@@ -7,7 +7,7 @@ const data = [
         description: 'Wybierz przedmiot, ucz się go gdzie i kiedy chcesz. Na komputerze i urządzeniach mobilnych.'
     },
     {
-        img: "../images/arkusze.png",
+        img: "../images/arkusze_small.png",
         title: "Arkusze maturalne zadania i testy",
         description: 'Z nami zobaczysz jak rozwiązywać różne zadania i jak formułować odpowiedzi.'
     },
@@ -46,7 +46,7 @@ class WhyUs extends Component {
             <div className="why__details">
             {
                 data.map((data, index) =>
-                    <div key={data.index} className="why__details__item">
+                    <div key={index} className="why__details__item">
                         <img className="why__details__item__image" src={data.img}/>
                         <h3 className="why__details__item__title">{data.title}</h3>
                         <p className="why__details__item__description">{data.description}</p>

@@ -1,4 +1,8 @@
 .menu {
+  position: fixed;
+  height: 44px;
+  width: 100%;
+  top: 0px;
   background: #ffffff;
   background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ededed));
