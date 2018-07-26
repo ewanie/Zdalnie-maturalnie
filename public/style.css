@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 50px; }
+
+.menu {
+  position: fixed;
+  height: 44px;
+  width: 100%;
+  top: 0px;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #ededed 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ededed));
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ededed 100%);
+  background: -o-linear-gradient(top, #ffffff 0%, #ededed 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%, #ededed 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 ); }
+  .menu__span {
+    height: 44px;
+    margin-left: 10px; }
+  .menu ul {
+    list-style-type: none;
+    display: inline;
+    float: right; }
+  .menu__item {
+    float: left;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 20px; }
+    .menu__item__link {
+      text-decoration: none;
+      color: #323232; }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 80vh;
+  width: 100%; }
+  .home__img {
+    height: 150px;
+    margin: 50px; }
+  .home__header {
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #323232;
+    font-weight: bold; }
+  .home__description {
+    color: #c4c4c4;
+    font-family: 'Handlee', cursive;
+    font-size: 32px;
+    margin: 10px;
+    font-weight: lighter; }
+  .home button {
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-radius: 50%;
+    outline: none;
+    -webkit-box-shadow: 7px 11px 19px -3px #b8b8b8;
+    -moz-box-shadow: 7px 11px 19px -3px #b8b8b8;
+    box-shadow: 7px 11px 19px -3px #b8b8b8; }
+    .home button a {
+      text-decoration: none;
+      color: #c4c4c4;
+      font-weight: bolder; }
+
+.learn {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px; }
+  .learn__oralExam {
+    width: 350px;
+    height: 250px;
+    -webkit-box-shadow: 2px 6px 21px 4px yellow;
+    -moz-box-shadow: 2px 6px 21px 4px yellow;
+    box-shadow: 2px 6px 21px 4px yellow;
+    border-radius: 70%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    padding: 50px; }
+    .learn__oralExam__link {
+      text-decoration: none; }
+    .learn__oralExam h1 {
+      color: #323232;
+      font-size: 36px; }
+    .learn__oralExam p {
+      font-family: 'Handlee', cursive;
+      color: #c4c4c4;
+      margin: 10px;
+      font-size: 24px;
+      text-transform: lowercase; }
+  .learn__math {
+    width: 350px;
+    height: 250px;
+    border-radius: 70%;
+    -webkit-box-shadow: 2px 6px 21px 4px #38b0de;
+    -moz-box-shadow: 2px 6px 21px 4px #38b0de;
+    box-shadow: 2px 6px 21px 4px #38b0de;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    padding: 55px; }
+    .learn__math__link {
+      text-decoration: none; }
+    .learn__math h1 {
+      color: #323232;
+      font-size: 36px; }
+    .learn__math p {
+      font-family: 'Handlee', cursive;
+      color: #c4c4c4;
+      margin: 10px;
+      font-size: 24px;
+      text-transform: lowercase; }
+
+.about {
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .about__header {
+    font-size: 42px;
+    color: #323232;
+    text-transform: uppercase;
+    margin: 20px; }
+  .about__details {
+    display: flex;
+    justify-content: space-between;
+    align-content: center; }
+    .about__details__lidia {
+      border: 2px solid #c4c4c4;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 22px;
+      color: #323232;
+      height: 450px;
+      width: 300px;
+      margin: 30px;
+      padding: 15px;
+      overflow: hidden; }
+      .about__details__lidia img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid #323232;
+        border-radius: 50%;
+        margin-bottom: 20px; }
+      .about__details__lidia p {
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+        color: #c4c4c4;
+        font-family: 'Handlee', cursive;
+        font-size: 18px; }
+    .about__details__olga {
+      border: 2px solid #c4c4c4;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 22px;
+      color: #323232;
+      height: 450px;
+      width: 300px;
+      margin: 30px;
+      padding: 15px;
+      overflow: hidden; }
+      .about__details__olga img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid #323232;
+        border-radius: 50%;
+        margin-bottom: 20px; }
+      .about__details__olga p {
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+        color: #c4c4c4;
+        font-family: 'Handlee', cursive;
+        font-size: 18px; }
+    .about__details__agata {
+      border: 2px solid #c4c4c4;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 22px;
+      color: #323232;
+      height: 450px;
+      width: 300px;
+      margin: 30px;
+      padding: 15px;
+      overflow: hidden; }
+      .about__details__agata img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid #323232;
+        border-radius: 50%;
+        margin-bottom: 20px; }
+      .about__details__agata p {
+        margin: 10px;
+        padding: 10px;
+        text-align: justify;
+        color: #c4c4c4;
+        font-family: 'Handlee', cursive;
+        font-size: 18px; }
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  overflow: hidden; }
+  .contact__header {
+    font-size: 42px;
+    color: #323232;
+    text-align: center;
+    margin: 10px;
+    text-transform: uppercase; }
+  .contact__items {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: space-around; }
+    .contact__items__form {
+      height: 500px;
+      width: 500px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .contact__items__form__name {
+        width: 210px;
+        height: 40px;
+        margin: 10px; }
+      .contact__items__form__email {
+        width: 210px;
+        height: 40px;
+        margin: 10px; }
+      .contact__items__form__message {
+        width: 440px;
+        height: 300px;
+        margin: 10px; }
+      .contact__items__form__question {
+        width: 150px;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 130px; }
+      .contact__items__form__answer {
+        width: 100px;
+        height: 30px;
+        margin: 10px; }
+      .contact__items__form button {
+        height: 30px;
+        width: 150px;
+        margin: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #323232; }
+    .contact__items__details {
+      height: 500px;
+      width: 500px; }
+      .contact__items__details__header {
+        font-size: 36px;
+        color: #323232; }
+      .contact__items__details__content {
+        font-size: 20px;
+        color: #c4c4c4;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        .contact__items__details__content__address a {
+          text-decoration: none; }
+
+.fb-page {
+  margin-top: 85px; }
+
+.presentation {
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px; }
+  .presentation__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .presentation__header span {
+      font-size: 20px;
+      color: #323232;
+      font-weight: lighter;
+      text-transform: uppercase; }
+    .presentation__header__title {
+      margin: 10px;
+      text-transform: uppercase;
+      color: #323232;
+      font-size: 42px; }
+    .presentation__header__description {
+      margin: 10px;
+      font-family: 'Handlee', cursive;
+      font-size: 24px;
+      color: #c4c4c4; }
+  .presentation__courses {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .presentation__courses__details__title {
+      width: 250px;
+      height: 150px;
+      margin: 25px;
+      padding: 10px;
+      -webkit-box-shadow: 2px 6px 21px 4px rgba(255, 255, 0, 0.62);
+      -moz-box-shadow: 2px 6px 21px 4px rgba(255, 255, 0, 0.62);
+      box-shadow: 2px 6px 21px 4px rgba(255, 255, 0, 0.62); }
+      .presentation__courses__details__title p {
+        font-size: 26px;
+        color: #323232;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 30px; }
+    .presentation__courses__details__description {
+      width: 300px;
+      height: 200px;
+      margin: 20px;
+      padding: 10px; }
+      .presentation__courses__details__description p {
+        font-size: 20px;
+        font-family: 'Handlee', cursive;
+        color: #c4c4c4;
+        text-align: center; }
+
+.math {
+  width: 100%;
+  height: 100%; }
+  .math__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .math__header__title {
+      font-size: 42px;
+      text-transform: uppercase;
+      color: #323232;
+      margin: 5px; }
+    .math__header__description {
+      font-size: 24px;
+      color: #c4c4c4;
+      font-family: 'Handlee', cursive;
+      margin: 5px; }
+  .math__root {
+    width: 100%; }
+    .math__root h1 {
+      margin: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 36px;
+      color: #323232;
+      border-top: 2px solid #c4c4c4;
+      border-bottom: 2px solid #c4c4c4; }
+    .math__root__courses {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap; }
+      .math__root__courses__title {
+        height: 150px;
+        width: 250px;
+        margin: 30px;
+        padding: 40px;
+        text-align: center;
+        font-size: 32px;
+        -webkit-box-shadow: 2px 6px 21px 4px #38b0de;
+        -moz-box-shadow: 2px 6px 21px 4px #38b0de;
+        box-shadow: 2px 6px 21px 4px #38b0de; }
+      .math__root__courses__description {
+        height: 200px;
+        width: 250px;
+        margin: 30px;
+        color: #c4c4c4;
+        font-family: 'Handlee', cursive;
+        font-size: 20px; }
+
+.why {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 45px;
+  overflow: hidden; }
+  .why__main {
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px; }
+  .why__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+    align-items: stretch; }
+    .why__details__item {
+      height: 270px;
+      width: 250px;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .why__details__item__image {
+        width: 200px;
+        height: 150px; }
+        @media (max-width: 1000px) {
+          .why__details__item__image {
+            display: none; } }
+      .why__details__item__title {
+        font-size: 18px;
+        color: #323232;
+        text-transform: uppercase;
+        text-align: center; }
+        @media (max-width: 1000px) {
+          .why__details__item__title {
+            font-size: 0.5em; } }
+      .why__details__item__description {
+        font-size: 18px;
+        color: #c4c4c4;
+        font-family: 'Handlee', cursive;
+        text-align: center; }
+
+.footer {
+  height: 30px;
+  width: 100%;
+  overflow: hidden; }
+  .footer__copyright {
+    font-size: 12px;
+    color: #c4c4c4;
+    margin-left: 10px; }
+  .footer__created {
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #c4c4c4; }
+
+.slider {
+  overflow: hidden; }
+
+.slide {
+  width: 600px;
+  height: 500px;
+  position: relative;
+  left: 100px; }
+  .slide p {
+    text-align: center;
+    position: absolute;
+    top: 370px;
+    left: 200px;
+    font-size: 18px;
+    color: #323232;
+    font-weight: bolder; }
+  .slide .content {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #c4c4c4;
+    font-family: 'Handlee', cursive;
+    position: absolute;
+    left: 90px;
+    top: 400px; }
+  .slide img {
+    position: absolute;
+    left: 50px;
+    top: 30px; }
+  .slide.hidden {
+    display: none; }
+
+.arrow {
+  font-size: 72px;
+  font-weight: bolder; }
+
+.nextArrow {
+  position: absolute;
+  right: 60px;
+  bottom: 210px; }
+
+.backArrow {
+  position: absolute;
+  left: 50px;
+  bottom: 210px; }
+
+.blog {
+  height: 100vh;
+  padding-top: 50px;
+  width: 100vw; }
+  .blog__header {
+    font-size: 42px;
+    color: #323232;
+    text-transform: uppercase;
+    text-align: center; }
+    .blog__header a {
+      text-decoration: none;
+      color: #323232; }
+  .blog__content {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    left: 180px;
+    padding: 20px; }
