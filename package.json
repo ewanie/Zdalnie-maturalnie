@@ -41,6 +41,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --content-base --inline --hot",
-    "build": "webpack"
+    "build": "webpack",
+    "heroku-postbuild": "webpack"
   }
 }
