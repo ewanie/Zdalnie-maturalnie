@@ -1,12 +1,29 @@
 import React, {Component} from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import $ from "jquery";
+
+
+$(document).ready(function(){
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000, function(){
+                window.location.hash = hash;
+            });
+        }
+    });
+});
+
 
 class Menu extends Component {
 
+
     render() {
         return <div className="menu">
-                <a className = "menu__span" href=""><img src='../images/mini_logo.png'/></a>
+                <a className = "menu__span" href="/#"><img src='../images/mini_logo.png'/></a>
             <ul>
             <li className='menu__item'>
                 <a className = "menu__item__link" href="/#przedmioty">Przedmioty</a></li>

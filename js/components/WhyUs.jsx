@@ -2,7 +2,7 @@ import React, {Component} from "react";
 
 const data = [
     {
-        img: "../images/przedmiotymaturanle.png",
+        img: "../images/przedmioty_small.png",
         title: "przedmioty maturalne online",
         description: 'Wybierz przedmiot, ucz się go gdzie i kiedy chcesz. Na komputerze i urządzeniach mobilnych.'
     },
@@ -12,14 +12,14 @@ const data = [
         description: 'Z nami zobaczysz jak rozwiązywać różne zadania i jak formułować odpowiedzi.'
     },
     {
-        img: "../images/wsparcie.png",
-        title: 'wsparcie',
-        description: 'Masz nasze wsparcie nie tylko w planowaniu nauki, ale również w rozwiązywaniu wątpliwości dotyczących zagmatwanych procedur maturalnych'
-    },
-    {
         img: '../images/innowacyjnosc.png',
         title: 'innowacyjność',
         description: "Treści przekażemy Ci w atrakcyjny sposób, łącząc różne metody nauczania."
+    },
+    {
+        img: "../images/motywacja.png",
+        title: 'motywacja',
+        description: "Pomożemy Ci wytrwać w realizacji Twoich celów."
     },
     {
         img: "../images/prostota.png",
@@ -32,9 +32,9 @@ const data = [
         description: "Wiemy jak tworzyć dobe kursy online. Z pomocą doświadczonych nauczycieli dostaniesz materiały najwyższej jakości."
     },
     {
-        img: "../images/motywacja.png",
-        title: 'motywacja',
-        description: "Pomożemy Ci wytrwać w realizacji Twoich celów."
+        img: "../images/wsparcie.png",
+        title: 'wsparcie',
+        description: 'Masz nasze wsparcie nie tylko w planowaniu nauki, ale również w rozwiązywaniu wątpliwości dotyczących zagmatwanych procedur maturalnych'
     }
 ];
 

@@ -70,8 +70,8 @@ class Slider extends Component {
                 this.state.slides.map((slide, index) => <Slide show={slideIndex===index} {...slide} />)
             }
 
-            <LeftArrow previousSlide={this.previousSlide} />
-            <RightArrow nextSlide={this.nextSlide} />
+            <LeftArrow className="backArrow" previousSlide={this.previousSlide} />
+            <RightArrow className ="nextArrow" nextSlide={this.nextSlide} />
         </div>);
 
 
