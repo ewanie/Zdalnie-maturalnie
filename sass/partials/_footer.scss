@@ -12,6 +12,11 @@
     font-size: 12px;
     margin-right: 10px;
     color: $titlesGrey;
+    a {
+      text-decoration: none;
+      font-weight: bolder;
+      color: $mainGrey;
+    }
   }
 
 }
