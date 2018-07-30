@@ -10,9 +10,9 @@ class Math extends Component {
             <div className="math__root">
                 <h1>Pierwiastki</h1>
                 <div className="math__root__courses">
-                    <div className="math__root__courses__title"><p>1</p></div>
-                    <div className="math__root__courses__title"><p>2</p></div>
-                    <div className="math__root__courses__title"><p>3</p></div>
+                    <div className="math__root__courses__title"><p><img src ="../images/square-root-mathematical-symbol.png"/></p></div>
+                    <div className="math__root__courses__title"><p><img src ="../images/square-root-mathematical-symbol.png"/></p></div>
+                    <div className="math__root__courses__title"><p><img src ="../images/square-root-of-x-math-formula.png"/></p></div>
                     <div className="math__root__courses__description">
                         <p>Pellentesque mollis varius, sem urna ante, in faucibus orci sem leo at lorem. Cras iaculis ante, cursus magna.</p></div>
                     <div className="math__root__courses__description">
